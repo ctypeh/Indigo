@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1330"
+   LastUpgradeVersion = "1520"
    wasCreatedForAppExtension = "YES"
    version = "2.0">
    <BuildAction
@@ -16,9 +16,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "28FDF728279E1D6F00573C23"
-               BuildableName = "Manila Finder Extension.appex"
-               BlueprintName = "Manila Finder Extension"
-               ReferencedContainer = "container:Manila.xcodeproj">
+               BuildableName = "Indigo Finder Extension.appex"
+               BlueprintName = "Indigo Finder Extension"
+               ReferencedContainer = "container:Indigo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -30,9 +30,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "28FDF712279E1D4800573C23"
-               BuildableName = "Manila.app"
-               BlueprintName = "Manila"
-               ReferencedContainer = "container:Manila.xcodeproj">
+               BuildableName = "Indigo.app"
+               BlueprintName = "Indigo"
+               ReferencedContainer = "container:Indigo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "28FDF712279E1D4800573C23"
-            BuildableName = "Manila.app"
-            BlueprintName = "Manila"
-            ReferencedContainer = "container:Manila.xcodeproj">
+            BuildableName = "Indigo.app"
+            BlueprintName = "Indigo"
+            ReferencedContainer = "container:Indigo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -74,15 +74,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES"
+      askForAppToLaunch = "Yes"
       launchAutomaticallySubstyle = "2">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "28FDF712279E1D4800573C23"
-            BuildableName = "Manila.app"
-            BlueprintName = "Manila"
-            ReferencedContainer = "container:Manila.xcodeproj">
+            BuildableName = "Indigo.app"
+            BlueprintName = "Indigo"
+            ReferencedContainer = "container:Indigo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

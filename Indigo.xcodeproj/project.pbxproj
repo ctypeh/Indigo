@@ -18,7 +18,7 @@
 		28FDF71B279E1D4900573C23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28FDF71A279E1D4900573C23 /* Assets.xcassets */; };
 		28FDF71E279E1D4900573C23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28FDF71C279E1D4900573C23 /* Main.storyboard */; };
 		28FDF72C279E1D6F00573C23 /* FinderSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FDF72B279E1D6F00573C23 /* FinderSync.swift */; };
-		28FDF731279E1D6F00573C23 /* Manila Finder Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 28FDF729279E1D6F00573C23 /* Manila Finder Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		28FDF731279E1D6F00573C23 /* Indigo Finder Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 28FDF729279E1D6F00573C23 /* Indigo Finder Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		28FDF737279E202800573C23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28FDF736279E202800573C23 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -33,15 +33,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		28FDF735279E1D6F00573C23 /* Embed App Extensions */ = {
+		28FDF735279E1D6F00573C23 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				28FDF731279E1D6F00573C23 /* Manila Finder Extension.appex in Embed App Extensions */,
+				28FDF731279E1D6F00573C23 /* Indigo Finder Extension.appex in Embed Foundation Extensions */,
 			);
-			name = "Embed App Extensions";
+			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -53,16 +53,16 @@
 		28A558A527C6F7E40073C3DC /* URL+XATTR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+XATTR.swift"; sourceTree = "<group>"; };
 		28A558A727C70C3B0073C3DC /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		28B87FBF27DAEE5B00A1A4E7 /* VideoContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoContainerView.swift; sourceTree = "<group>"; };
-		28FDF713279E1D4800573C23 /* Manila.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Manila.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28FDF713279E1D4800573C23 /* Indigo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Indigo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28FDF716279E1D4800573C23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28FDF718279E1D4800573C23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		28FDF71A279E1D4900573C23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28FDF71D279E1D4900573C23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		28FDF71F279E1D4900573C23 /* Manila.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Manila.entitlements; sourceTree = "<group>"; };
-		28FDF729279E1D6F00573C23 /* Manila Finder Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Manila Finder Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28FDF71F279E1D4900573C23 /* Indigo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Indigo.entitlements; sourceTree = "<group>"; };
+		28FDF729279E1D6F00573C23 /* Indigo Finder Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Indigo Finder Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28FDF72B279E1D6F00573C23 /* FinderSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderSync.swift; sourceTree = "<group>"; };
 		28FDF72D279E1D6F00573C23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		28FDF72E279E1D6F00573C23 /* Manila_Finder_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Manila_Finder_Extension.entitlements; sourceTree = "<group>"; };
+		28FDF72E279E1D6F00573C23 /* Indigo_Finder_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Indigo_Finder_Extension.entitlements; sourceTree = "<group>"; };
 		28FDF736279E202800573C23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,8 +87,8 @@
 		28FDF70A279E1D4800573C23 = {
 			isa = PBXGroup;
 			children = (
-				28FDF715279E1D4800573C23 /* Manila */,
-				28FDF72A279E1D6F00573C23 /* Manila Finder Extension */,
+				28FDF715279E1D4800573C23 /* Indigo */,
+				28FDF72A279E1D6F00573C23 /* Indigo Finder Extension */,
 				28FDF714279E1D4800573C23 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,13 +96,13 @@
 		28FDF714279E1D4800573C23 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				28FDF713279E1D4800573C23 /* Manila.app */,
-				28FDF729279E1D6F00573C23 /* Manila Finder Extension.appex */,
+				28FDF713279E1D4800573C23 /* Indigo.app */,
+				28FDF729279E1D6F00573C23 /* Indigo Finder Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		28FDF715279E1D4800573C23 /* Manila */ = {
+		28FDF715279E1D4800573C23 /* Indigo */ = {
 			isa = PBXGroup;
 			children = (
 				28FDF716279E1D4800573C23 /* AppDelegate.swift */,
@@ -112,13 +112,13 @@
 				28B87FBF27DAEE5B00A1A4E7 /* VideoContainerView.swift */,
 				28FDF71A279E1D4900573C23 /* Assets.xcassets */,
 				28FDF71C279E1D4900573C23 /* Main.storyboard */,
-				28FDF71F279E1D4900573C23 /* Manila.entitlements */,
+				28FDF71F279E1D4900573C23 /* Indigo.entitlements */,
 				28486D9B27DAE01400FDC8AA /* Welcome.mp4 */,
 			);
-			path = Manila;
+			path = Indigo;
 			sourceTree = "<group>";
 		};
-		28FDF72A279E1D6F00573C23 /* Manila Finder Extension */ = {
+		28FDF72A279E1D6F00573C23 /* Indigo Finder Extension */ = {
 			isa = PBXGroup;
 			children = (
 				28FDF72B279E1D6F00573C23 /* FinderSync.swift */,
@@ -126,36 +126,36 @@
 				28A558A527C6F7E40073C3DC /* URL+XATTR.swift */,
 				28FDF736279E202800573C23 /* Assets.xcassets */,
 				28FDF72D279E1D6F00573C23 /* Info.plist */,
-				28FDF72E279E1D6F00573C23 /* Manila_Finder_Extension.entitlements */,
+				28FDF72E279E1D6F00573C23 /* Indigo_Finder_Extension.entitlements */,
 			);
-			path = "Manila Finder Extension";
+			path = "Indigo Finder Extension";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		28FDF712279E1D4800573C23 /* Manila */ = {
+		28FDF712279E1D4800573C23 /* Indigo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 28FDF722279E1D4900573C23 /* Build configuration list for PBXNativeTarget "Manila" */;
+			buildConfigurationList = 28FDF722279E1D4900573C23 /* Build configuration list for PBXNativeTarget "Indigo" */;
 			buildPhases = (
 				28FDF70F279E1D4800573C23 /* Sources */,
 				28FDF710279E1D4800573C23 /* Frameworks */,
 				28FDF711279E1D4800573C23 /* Resources */,
-				28FDF735279E1D6F00573C23 /* Embed App Extensions */,
+				28FDF735279E1D6F00573C23 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				28FDF730279E1D6F00573C23 /* PBXTargetDependency */,
 			);
-			name = Manila;
+			name = Indigo;
 			productName = Manila;
-			productReference = 28FDF713279E1D4800573C23 /* Manila.app */;
+			productReference = 28FDF713279E1D4800573C23 /* Indigo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		28FDF728279E1D6F00573C23 /* Manila Finder Extension */ = {
+		28FDF728279E1D6F00573C23 /* Indigo Finder Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 28FDF732279E1D6F00573C23 /* Build configuration list for PBXNativeTarget "Manila Finder Extension" */;
+			buildConfigurationList = 28FDF732279E1D6F00573C23 /* Build configuration list for PBXNativeTarget "Indigo Finder Extension" */;
 			buildPhases = (
 				28FDF725279E1D6F00573C23 /* Sources */,
 				28FDF726279E1D6F00573C23 /* Frameworks */,
@@ -165,9 +165,9 @@
 			);
 			dependencies = (
 			);
-			name = "Manila Finder Extension";
+			name = "Indigo Finder Extension";
 			productName = "Manila Finder Extension";
-			productReference = 28FDF729279E1D6F00573C23 /* Manila Finder Extension.appex */;
+			productReference = 28FDF729279E1D6F00573C23 /* Indigo Finder Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -178,7 +178,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
-				LastUpgradeCheck = 1330;
+				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					28FDF712279E1D4800573C23 = {
 						CreatedOnToolsVersion = 13.2.1;
@@ -188,7 +188,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 28FDF70E279E1D4800573C23 /* Build configuration list for PBXProject "Manila" */;
+			buildConfigurationList = 28FDF70E279E1D4800573C23 /* Build configuration list for PBXProject "Indigo" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -201,8 +201,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				28FDF712279E1D4800573C23 /* Manila */,
-				28FDF728279E1D6F00573C23 /* Manila Finder Extension */,
+				28FDF712279E1D4800573C23 /* Indigo */,
+				28FDF728279E1D6F00573C23 /* Indigo Finder Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -256,7 +256,7 @@
 /* Begin PBXTargetDependency section */
 		28FDF730279E1D6F00573C23 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 28FDF728279E1D6F00573C23 /* Manila Finder Extension */;
+			target = 28FDF728279E1D6F00573C23 /* Indigo Finder Extension */;
 			targetProxy = 28FDF72F279E1D6F00573C23 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -307,9 +307,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -368,9 +370,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -394,12 +398,14 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Manila/Manila.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Indigo/Indigo.entitlements;
 				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ZW9695993M;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
@@ -413,8 +419,8 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.NeilSardesai.Manila;
+				MARKETING_VERSION = 1.1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ClaireViolet.Indigo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -427,12 +433,14 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Manila/Manila.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Indigo/Indigo.entitlements;
 				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ZW9695993M;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
@@ -446,8 +454,8 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.NeilSardesai.Manila;
+				MARKETING_VERSION = 1.1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ClaireViolet.Indigo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -457,24 +465,26 @@
 		28FDF733279E1D6F00573C23 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "Manila Finder Extension/Manila_Finder_Extension.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Indigo Finder Extension/Indigo_Finder_Extension.entitlements";
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ZW9695993M;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Manila Finder Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Manila Finder Extension";
+				INFOPLIST_FILE = "Indigo Finder Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Indigo Finder Extension";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2022 Neil Sardesai\nAll rights reserved.";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.NeilSardesai.Manila.Manila-Finder-Extension";
+				MARKETING_VERSION = 1.1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ClaireViolet.Indigo.Indigo-Finder-Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -485,24 +495,26 @@
 		28FDF734279E1D6F00573C23 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "Manila Finder Extension/Manila_Finder_Extension.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Indigo Finder Extension/Indigo_Finder_Extension.entitlements";
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ZW9695993M;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Manila Finder Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Manila Finder Extension";
+				INFOPLIST_FILE = "Indigo Finder Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Indigo Finder Extension";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2022 Neil Sardesai\nAll rights reserved.";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.NeilSardesai.Manila.Manila-Finder-Extension";
+				MARKETING_VERSION = 1.1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ClaireViolet.Indigo.Indigo-Finder-Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -513,7 +525,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		28FDF70E279E1D4800573C23 /* Build configuration list for PBXProject "Manila" */ = {
+		28FDF70E279E1D4800573C23 /* Build configuration list for PBXProject "Indigo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				28FDF720279E1D4900573C23 /* Debug */,
@@ -522,7 +534,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		28FDF722279E1D4900573C23 /* Build configuration list for PBXNativeTarget "Manila" */ = {
+		28FDF722279E1D4900573C23 /* Build configuration list for PBXNativeTarget "Indigo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				28FDF723279E1D4900573C23 /* Debug */,
@@ -531,7 +543,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		28FDF732279E1D6F00573C23 /* Build configuration list for PBXNativeTarget "Manila Finder Extension" */ = {
+		28FDF732279E1D6F00573C23 /* Build configuration list for PBXNativeTarget "Indigo Finder Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				28FDF733279E1D6F00573C23 /* Debug */,

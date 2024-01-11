@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1330"
+   LastUpgradeVersion = "1520"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "28FDF712279E1D4800573C23"
-               BuildableName = "Manila.app"
-               BlueprintName = "Manila"
-               ReferencedContainer = "container:Manila.xcodeproj">
+               BuildableName = "Indigo.app"
+               BlueprintName = "Indigo"
+               ReferencedContainer = "container:Indigo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "28FDF712279E1D4800573C23"
-            BuildableName = "Manila.app"
-            BlueprintName = "Manila"
-            ReferencedContainer = "container:Manila.xcodeproj">
+            BuildableName = "Indigo.app"
+            BlueprintName = "Indigo"
+            ReferencedContainer = "container:Indigo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "28FDF712279E1D4800573C23"
-            BuildableName = "Manila.app"
-            BlueprintName = "Manila"
-            ReferencedContainer = "container:Manila.xcodeproj">
+            BuildableName = "Indigo.app"
+            BlueprintName = "Indigo"
+            ReferencedContainer = "container:Indigo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

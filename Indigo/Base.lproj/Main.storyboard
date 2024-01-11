@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="20037"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="22505"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -11,11 +11,11 @@
                 <application id="hnw-xV-0zn" sceneMemberID="viewController">
                     <menu key="mainMenu" title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
                         <items>
-                            <menuItem title="Manila" id="1Xt-HY-uBw">
+                            <menuItem title="Indigo" id="1Xt-HY-uBw">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <menu key="submenu" title="Manila" systemMenu="apple" id="uQy-DD-JDr">
+                                <menu key="submenu" title="Indigo" systemMenu="apple" id="uQy-DD-JDr">
                                     <items>
-                                        <menuItem title="About Manila" id="5kV-Vb-QxS">
+                                        <menuItem title="About Indigo" id="5kV-Vb-QxS">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
                                                 <action selector="orderFrontStandardAboutPanel:" target="Ady-hI-5gd" id="Exp-CZ-Vem"/>
@@ -29,7 +29,7 @@
                                             <menu key="submenu" title="Services" systemMenu="services" id="hz9-B4-Xy5"/>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="4je-JR-u6R"/>
-                                        <menuItem title="Hide Manila" keyEquivalent="h" id="Olw-nP-bQN">
+                                        <menuItem title="Hide Indigo" keyEquivalent="h" id="Olw-nP-bQN">
                                             <connections>
                                                 <action selector="hide:" target="Ady-hI-5gd" id="PnN-Uc-m68"/>
                                             </connections>
@@ -47,7 +47,7 @@
                                             </connections>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
-                                        <menuItem title="Quit Manila" keyEquivalent="q" id="4sb-4s-VLi">
+                                        <menuItem title="Quit Indigo" keyEquivalent="q" id="4sb-4s-VLi">
                                             <connections>
                                                 <action selector="terminate:" target="Ady-hI-5gd" id="Te7-pn-YzF"/>
                                             </connections>
@@ -398,7 +398,7 @@
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <menu key="submenu" title="Help" systemMenu="help" id="F2S-fz-NVQ">
                                     <items>
-                                        <menuItem title="Manila Help" keyEquivalent="?" id="FKE-Sm-Kum">
+                                        <menuItem title="Indigo Help" keyEquivalent="?" id="FKE-Sm-Kum">
                                             <connections>
                                                 <action selector="showHelp:" target="Ady-hI-5gd" id="y7X-2Q-9no"/>
                                             </connections>
@@ -422,7 +422,7 @@
         <scene sceneID="R2V-B0-nI4">
             <objects>
                 <windowController id="B8D-0N-5wS" sceneMemberID="viewController">
-                    <window key="window" title="Welcome to Manila" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" titlebarAppearsTransparent="YES" titleVisibility="hidden" id="IQv-IB-iLA" customClass="MainWindow" customModule="Manila" customModuleProvider="target">
+                    <window key="window" title="Welcome to Indigo" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" titlebarAppearsTransparent="YES" titleVisibility="hidden" id="IQv-IB-iLA" customClass="MainWindow" customModule="Manila" customModuleProvider="target">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" fullSizeContentView="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
                         <rect key="contentRect" x="196" y="240" width="480" height="270"/>
@@ -456,8 +456,8 @@
                                 <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="NSApplicationIcon" id="n8X-pi-YQx"/>
                             </imageView>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="wvR-F1-BNL">
-                                <rect key="frame" x="88" y="453" width="237" height="30"/>
-                                <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="Welcome to Manila" id="hP1-z3-qcs">
+                                <rect key="frame" x="90" y="453" width="233" height="30"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="Welcome to Indigo" id="hP1-z3-qcs">
                                     <font key="font" metaFont="systemBold" size="26"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -467,14 +467,14 @@
                                 <rect key="frame" x="18" y="333" width="376" height="96"/>
                                 <textFieldCell key="cell" id="Wl9-0G-74J">
                                     <font key="font" metaFont="system"/>
-                                    <string key="title">Manila is a Finder extension. To use Manila, first go to System Preferences &gt; Extensions &gt; Finder Extensions, and make sure the extension is enabled. After that, just right click on one or more folders whose color you want to change, go to the Color menu, and pick a color. Manila will continue to work after you close this window.</string>
+                                    <string key="title">Indigo is a Finder extension. To use Indigo, first go to System Preferences &gt; Extensions &gt; Finder Extensions, and make sure the extension is enabled. After that, just right click on one or more folders whose color you want to change, go to the Color menu, and pick a color. Indigo will continue to work after you close this window.</string>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
                             <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="g3l-Dj-Gp0">
                                 <rect key="frame" x="18" y="60" width="376" height="32"/>
-                                <textFieldCell key="cell" title="To remove Manila from your computer, drag this app to the Trash, empty the Trash, then log out and log back in." id="2Fe-01-DK5">
+                                <textFieldCell key="cell" title="To remove Indigo from your computer, drag this app to the Trash, empty the Trash, then log out and log back in." id="2Fe-01-DK5">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
